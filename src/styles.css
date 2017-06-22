@@ -5,3 +5,14 @@ html, body {
   margin:0;
   padding:0;
 }
+
+.app-drag__dragstart {
+
+}
+
+.app-drop__dragEnter {
+
+}
+.largeText {
+  font-size: 20px;
+}

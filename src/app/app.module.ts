@@ -16,11 +16,19 @@ import { PlayerComponent } from './components/player/player.component';
 // Services
 import { PlayerService } from 'app/components/services/player.service';
 
+// Directives
+import { DragDirective } from './directives/drag.directive';
+import { DropDirective } from './directives/drop.directive';
+
+// import { EnhancementPackModule } from './enhancement-pack/enhancement-pack.module';
+
 @NgModule({
   declarations: [
     AppComponent,
     BackpackComponent,
-    PlayerComponent
+    PlayerComponent,
+    DragDirective,
+    DropDirective
   ],
   imports: [
     BrowserModule,
@@ -28,7 +36,8 @@ import { PlayerService } from 'app/components/services/player.service';
     HttpModule,
     MaterialModule,
     FlexLayoutModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    // EnhancementPackModule
   ],
   providers: [
     PlayerService

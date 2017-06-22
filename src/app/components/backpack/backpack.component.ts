@@ -25,7 +25,7 @@ export class BackpackComponent implements OnInit {
         }
       },
       {
-        type: 'Sandwich', modifiers: {
+        type: 'Awesome Sauce', modifiers: {
           awesomeness: 30
         }
       }

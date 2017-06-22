@@ -1,7 +1,7 @@
 <h2>Items</h2>
 <md-nav-list class="item-list">
   <ng-container *ngFor="let item of items">
-    <md-list-item (click)="onConsumeItem(item)">
+    <md-list-item (click)="onConsumeItem(item)" appDrag appColorEnhance>
       {{item.type}}
     </md-list-item>
     <md-divider></md-divider>
